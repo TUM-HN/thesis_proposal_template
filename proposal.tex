@@ -1,0 +1,94 @@
+\RequirePackage[l2tabu,orthodox]{nag}
+
+% TODO: decide if one-sided/two-side
+%\documentclass[headsepline,footsepline,footinclude=false,fontsize=11pt,paper=a4,listof=totoc,bibliography=totoc,BCOR=12mm,DIV=12]{scrbook} % two-sided
+\documentclass[headsepline,footsepline,footinclude=false,oneside,fontsize=11pt,paper=a4,listof=totoc,bibliography=totoc]{scrbook} % one-sided
+
+\input{settings}
+
+% TODO: change thesis information
+\newcommand*{\getUniversity}{Technical University of Munich}
+\newcommand*{\getFaculty}{School of Computation, Information and Technology }
+\newcommand*{\getTitle}{<<Thesis title>>}
+\newcommand*{\getTitleGer}{<<Titel der Abschlussarbeit>>}
+\newcommand*{\getAuthor}{<<Student's name>>}
+\newcommand*{\getDoctype}{<<Bachelor's / Master's>> Thesis in Information Engineering \ldots}
+\newcommand*{\getSupervisor}{Prof. Dr. Stefan Wagner}
+\newcommand*{\getAdvisor}{Dr. Santiago Berrezueta}
+\newcommand*{\getSubmissionDate}{<<Submission date>>}
+\newcommand*{\getSubmissionLocation}{Heilbronn}
+
+\begin{document}
+
+\pagenumbering{alph}
+\frontmatter{}
+\input{pages/title}
+\mainmatter{}
+
+\chapter{Abstract}
+% The Abstract provides a brief overview of the proposal, summarizing the key elements in a concise way. It should:
+% - Include a short description of the main problem or research question.
+% - Provide the motivation behind choosing this topic.
+% - Outline the objectives and goals.
+% - Summarize the proposed approach or methods.
+% - Mention the expected results or outcomes.
+% The abstract should be brief (typically around 150-200 words) and give the reader a quick understanding of the purpose and direction of the research.
+
+\chapter{Thesis Proposal}
+
+\section{Introduction}
+% The Introduction introduces the research topic and provides context. It should:
+% - Define the research area and provide background information.
+% - Explain the importance and relevance of the research topic.
+% - Present a high-level overview of the problem or research gap that the study addresses.
+% - End with a brief outline of the structure of the proposal.
+% This section sets the stage for the supervisor(s), helping them understand why the research is important and what the proposal aims to achieve.
+
+\section{Problem}
+% The Problem section clearly defines the specific issue, question, or gap in knowledge that the research aims to address. It should:
+% - Describe the nature and scope of the problem.
+% - Highlight the aspects that make it a significant issue worth studying.
+% - Identify any limitations in current approaches or gaps in existing knowledge that the study seeks to fill.
+% This section is crucial as it justifies the need for the study by clearly outlining what is problematic or unknown.
+
+\section{Motivation}
+% The Motivation section provides the reasons and background for pursuing this particular research. It should:
+% - Explain why this problem or question is personally, scientifically, or socially relevant.
+% - Discuss any specific factors that led the researcher to choose this topic.
+% - Highlight the potential impact of the research findings on the field or in a practical context.
+% This section helps the reader understand the researcher’s interest in the topic and its broader significance.
+
+\section{Objectives}
+% The Objectives section outlines the specific goals and intended outcomes of the research. It should:
+% - List the primary objectives of the study, usually as bullet points.
+% - Differentiate between primary and secondary objectives if necessary.
+% - Provide clear and measurable targets that the research will aim to achieve.
+% This section serves as a roadmap for the study, clarifying what the research is aiming to accomplish.
+
+\section{Schedule}
+
+% The Schedule provides a timeline for completing the research, showing when each key phase or activity will be carried out. It should:
+% - Break down the research process into stages (e.g., literature review, data collection, analysis, writing).
+% - Include estimated start and end dates for each stage.
+% - Optionally, present this information in a table or Gantt chart for clarity.
+% A well-defined schedule is essential in demonstrating that the project is feasible within the allotted time and resources.
+
+\printbibliography{}
+
+% The bibliography section must contain at least 15 references ONLY from books, scientific peer-reviewed papers, Doctoral Thesis, and/or previous BSc/MSc thesis. 
+
+
+% - Ensure that all cited sources are relevant and contribute meaningfully to your argument or background.
+
+% - Use a consistent citation style throughout the thesis (ideally alpha with [ABC12]).
+
+% - Only include peer-reviewed conference papers or journal articles in your bibliography.
+% - Avoid including internet sources in the literature; if used at all, include them as footnotes.
+% - Clean up your bibliography to avoid duplicate or incorrect information (e.g., location details for ACM conferences).
+% - Avoid simply copying and pasting Google Scholar entries; manual cleanup is often required.
+% - The citation should be placed before the full stop (e.g., some example text [AB12].) and not after the full stop.
+% - Regularly cross-check in-text citations with the bibliography to ensure all sources are listed and correctly referenced.
+
+%If citing textbooks or technical reports, ensure they are authoritative and well-established within the field.
+
+\end{document}
